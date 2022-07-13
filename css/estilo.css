@@ -1,0 +1,389 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+*{  
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font-size: 62.5%;   /*1rem=10px*/
+}
+
+body{
+    background-image: url(../images/background.png);
+    background-repeat: round;
+    background-attachment: fixed;
+    background-size: 100%;
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+    
+}
+/* selectores de etiqueta */
+
+h1{
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 3rem;
+   
+}
+h3{
+    color:black;
+    font-size: 2.3rem;
+    padding-top: 20px;
+    
+
+}
+p{
+    color: rgb(0, 0, 0);
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    line-height: 3rem;
+    font-weight: 300;
+    padding-top: 20px;
+}
+footer{
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* selectores de clase */
+
+.text-black{
+    color:black
+}
+.text-white{
+    color:white
+}
+.text-center{
+    text-align: center;
+}
+.text-right{
+    text-align: right;
+}
+.text-left{
+    text-align: left;
+}
+.text-italic{
+    font-style: italic;
+}
+.text-justify{
+    text-align: justify;
+}
+.w-25{
+    width: 25%;
+}
+
+/* BOX MODEL */
+.header__image{
+    width: 100%;
+   
+}
+
+.article__h1--index{   
+    width: 65%;
+    margin: 50px auto 0px auto;
+    padding: 15px 30px;
+    border: solid black 2px;
+    overflow: auto;
+}
+
+.border-aside{   
+    width: 65%;
+    margin-bottom: 50px;
+    padding: 15px 30px;
+    border: solid black 2px;
+    overflow: auto;
+}
+
+.header__center{
+    width: 100%;
+    
+}
+
+.footer__image{
+    width: 62px;
+}
+
+.footer__h2{
+    padding-top: 13px;
+}
+
+
+
+.article__h3--servicios{
+    width: 75%;
+    margin: 50px auto;
+    padding: 20px 30px;
+    overflow: auto;
+}
+
+.h1-disenos{
+    text-align: center;
+    padding: 50px 0px;
+    margin: 0px 100px;
+    border-bottom: black solid 3px;
+}
+
+.h3-disenos{
+    text-align: center;
+    padding: 50px 0px;
+}
+
+.contenedorDisenos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding-bottom: 30px;
+    
+}
+
+.main__acercademi{
+    width: 65%;
+    margin: 50px auto 0px auto;
+    padding: 15px 30px;
+    overflow: auto;
+    
+    
+}
+
+.aside__acercademi{
+    width: 80%;
+    margin: 50px auto 0px auto;
+    padding: 30px;
+    display: flex;
+    align-content: center;
+}
+
+
+
+
+.section__form{
+    width: 50%;
+    font-size: 1.4rem;
+    text-align: left;
+    margin-left: 10px;
+    padding-top: 20px;
+    
+    
+
+}
+
+.iframe__contacto{
+    padding: 15px 0px 15px 15px;
+    
+   
+}
+
+
+
+.contenedor{
+    display: grid;
+    grid-template-columns: 100vw;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "nav" 
+    "header" 
+    "intro" 
+    "aside" 
+    "footer";
+}
+
+.contenedorContacto{
+    display: grid;
+    grid-template-columns: 100vw;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "nav" 
+    "header" 
+    "formulario" 
+    "mapa" 
+    "footer";
+}
+
+#mainNav{
+    grid-area: nav;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#header{
+    grid-area: header;
+}
+
+#intro{
+    grid-area: intro;
+}
+
+#aside{
+    grid-area: aside;
+    
+}
+
+#footer{
+    grid-area: footer;
+}
+
+#mapa{
+    grid-area: mapa;
+}
+
+#formulario{
+    grid-area: formulario;
+}
+
+.botonera {
+    position: sticky;
+    top: 0;
+    left: 0;
+    padding: 10px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    
+
+
+}
+
+.botonera img{
+    width: 200px;
+
+}
+
+.botonera ul{
+    display: flex;
+    flex-direction: column;
+    padding-top: 15px;
+}
+
+.botonera ul li{
+    list-style: none;
+    margin-top: 10px;
+}
+
+    .botonera ul li a{
+        font-size: 1.8rem;
+        text-decoration: none;
+        color: black;
+    }
+
+    
+    .botonera ul li a:hover{
+        color: black;
+        font-weight: 600;
+    } 
+
+.positionSticky{
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+.contenedorContacto h1{
+    text-align: center;
+    padding: 20px 0px;
+    
+    
+}
+
+@media (min-width: 768px){
+    
+    .botonera ul{
+        display: flex;
+        flex-direction: row;
+        
+    }
+    .botonera ul li{
+        padding: 0px 40px;
+    }
+    .botonera img{
+        width: 300px;
+    
+    }
+    .contenedorContacto{
+        grid-template-columns: 60vw 40vw;
+        grid-template-areas: 
+        "nav nav" 
+        "header header" 
+        "formulario mapa" 
+        "footer footer";
+    }
+
+    #formulario{
+        margin: 40px 0px 40px 30px;
+        
+        
+    }
+
+
+    #mapa{
+        margin-top: 100px;
+    }
+
+    .contenedorContacto h1{
+        text-align: left;
+        margin-left: 10px;
+        
+    }
+
+    #formulario section{
+        width: 300px;
+    }
+}
+
+@media (min-width: 1024px){
+    .contenedor{
+        grid-template-columns: 70vw 30vw;
+        grid-template-areas: 
+        "nav nav" 
+        "header header" 
+        "intro aside" 
+        "footer footer" ;
+    }
+
+    .article__h1--index{
+        border: none;
+        padding: 0;
+    }
+
+    .border-aside{
+        border: black solid 3px;
+        font-size: 1.6rem;
+        padding: 20px;
+
+        
+    }
+
+    .article-padding{
+        padding-top: 30px;
+        margin: 50px;
+        width: 90%;
+
+    }
+
+    .botonera img{
+        width: 350px;
+    
+    }
+
+    .botonera ul li a{
+        font-size: 2.3rem;
+        margin: 30px;    
+    }
+
+    .botonera{
+        padding-bottom: 12px;
+    
+    }
+
+    #mapa iframe{
+        width: 350px;
+        height: 300px;
+        padding-right: 30px;
+    }
+    #formulario section{
+        width: 500px;
+    }
+}
