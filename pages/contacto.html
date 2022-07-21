@@ -6,31 +6,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BRNAILS - Servicios de manicura</title>
     <link rel="shortcut icon" href="../images/favicon.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/estilo.css">
 </head>
 <body class="contenedorContacto">
-    <div id="mainNav" class="positionSticky">
-        <nav class="text-center botonera">
-            <a href=" ../index.html">
-                <img src="../images/logo.png" alt="Logo BRNAILS servicio de manicura y esmaltado">
+    <!--empieza navbar-->
+    <nav class="navbar navbar-expand-md navbar-light bg-white d-flex flex-column" id="mainNav">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html">
+                <img src="../images/logo.png" alt="logo brnails">
             </a>
-            
-            <ul class="text-center">
-                <li>
-                    <a href="../pages/servicios.html">Servicios</a>
-                </li> 
-                <li>
-                    <a href="../pages/disenos.html">Diseños</a>
-                </li>
-                <li>
-                    <a href="../pages/acercademi.html">Acerca de mi</a>
-                </li>
-                <li>
-                    <a href="../pages/contacto.html">Contacto</a>
-                </li>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/servicios.html">Servicios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/disenos.html">Diseños</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/acercademi.html">Acerca de mi</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+              </li>
             </ul>
-        </nav>
-    </div>
+          </div>
+        </div>
+      </nav>
+    
+    <!--termina navbar-->
 
     
     <header id="header" class="header__center">
@@ -40,42 +48,48 @@
     <main id="formulario">
         <h1>Contacto</h1>
         <section class="section__form">
-            <form action="envio.php">
-                <label for="name">Nombre y apellido</label>
-                <input type="text" id="name" placeholder="Belén Rodríguez">
-                <br>
-                <label for="email">Email</label>
-                <input type="email" id="email" placeholder="ejemplo@gmail.com">
-                <label for="sexo">Sexo</label>
-                <select name="" id="">  
-                    <option value="femenino">Femenino</option>
-                    <option value="masculino">Masculino</option>
-                </select>
-
-                <br>
-                <fieldset>
-                    <legend>¿Qué servicio te interesó?</legend>
-                    <label for="manicura">Manicura (sin esmaltado)</label>
-                    <input type="checkbox" id="manicura">
-                    <br>
-                    <label for="semipermanente">Esmaltado semipermanente</label>
-                    <input type="checkbox" id="semipermanente">
-                    <br>
-                    <label for="kapping">Kapping gel</label>
-                    <input type="checkbox" id=kapping>
-                </fieldset>
-                <label for="comentario">Deje su mensaje:</label>
-                <br>
-                <textarea name="" id="" cols="30" rows="10" placeholder="Hola, me gustaria recibir informacion acerca del esmastado semipermanente..."></textarea>
-                <br>
-                <input type="reset" value="Cancelar">
-                <input type="submit" value="Enviar">
-            </form>
-        </section>
+          <!--empieza form-->
+          <form class="row g-3">
+            <div class="col-md-6">
+              <label for="name" class="form-label">Nombre</label>
+              <input type="text" class="form-control" id="name" placeholder="Mariana">
+            </div>
+            <div class="col-md-6">
+              <label for="apellido" class="form-label">Apellido</label>
+              <input type="text" class="form-control" id="apellido" placeholder="Lopez">
+            </div>
+            <div class="col-12">
+              <label for="email" class="form-label">Correo electrónico</label>
+              <input type="email" class="form-control" id="email" placeholder="algo@ejemplo.com">
+            </div>
+            
+            
+            <div class="col-md-4">
+              <label for="inputState" class="form-label">Sexo</label>
+              <select id="inputState" class="form-select">
+                <option selected>Femenino</option>
+                <option>Masculino</option>
+              </select>
+            </div>
+            
+            
+            </div>
+           
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label">Deje su mensaje:</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Hola, me gustaria recibir información..."></textarea>
+            </div>
+          <div class="col-12">
+            <button type="reset" class="btn btn-dark btn-gradient">Cancelar</button>
+            <button type="submit" class="btn btn-dark btn-gradient">Enviar</button>
+          </div>
+          </form>
+          <!--termina form-->
+            
     </main>
 
     <aside id="mapa">
-        <div class="iframe__contacto" >
+        <div class="iframe__contacto ms-auto p-2 bd-highlight" >
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1635.5960358878876!2d-57.9495234042934!3d-34.9267195864001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a2e627a6e477cf%3A0x14bcf48319f18b18!2sPlaza%20Juan%20Manuel%20de%20Rosas!5e0!3m2!1ses!2sar!4v1655422603743!5m2!1ses!2sar" width="250" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
     </aside>
@@ -88,5 +102,7 @@
             <img class="footer__image" src="../images/instagram.png" alt="">
         </a>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>

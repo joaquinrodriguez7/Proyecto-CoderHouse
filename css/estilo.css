@@ -24,6 +24,7 @@ h1{
     color: black;
     font-family: 'Roboto', sans-serif;
     font-size: 3rem;
+    font-weight: 600;
    
 }
 h3{
@@ -197,12 +198,7 @@ footer{
     "footer";
 }
 
-#mainNav{
-    grid-area: nav;
-    display: flex;
-    flex-direction: column;
-    
-}
+
 
 #header{
     grid-area: header;
@@ -223,50 +219,51 @@ footer{
 
 #mapa{
     grid-area: mapa;
+    margin-left: 10px;
 }
 
 #formulario{
     grid-area: formulario;
 }
 
-.botonera {
+#mainNav {
+    grid-area: nav;
     position: sticky;
     top: 0;
     left: 0;
     padding: 10px 30px;
     display: flex;
-    flex-direction: column;
     align-items: center;
     background-color: white;
-    
+    z-index: 100;
 
 
 }
 
-.botonera img{
-    width: 200px;
+#mainNav img{
+    width: 175px;
 
 }
 
-.botonera ul{
+#mainNav ul{
     display: flex;
     flex-direction: column;
     padding-top: 15px;
 }
 
-.botonera ul li{
+#mainNav ul li{
     list-style: none;
     margin-top: 10px;
 }
 
-    .botonera ul li a{
-        font-size: 1.8rem;
+    #mainNav ul li a{
+        font-size: 1.5rem;
         text-decoration: none;
         color: black;
     }
 
     
-    .botonera ul li a:hover{
+    #mainNav ul li a:hover{
         color: black;
         font-weight: 600;
     } 
@@ -294,20 +291,40 @@ footer{
     animation-duration: 3s;
 }
 
-@media (min-width: 768px){
-    
-    .botonera ul{
-        display: flex;
-        flex-direction: row;
+
+@media (min-width: 576px){
+    #mainNav img{
+        width: 200px;
         
     }
-    .botonera ul li{
-        padding: 0px 40px;
-    }
-    .botonera img{
-        width: 300px;
+}
+
+
+@media (min-width: 768px){
     
+    #mainNav{
+        display: flex;
+           
     }
+
+    #mainNav ul{
+        display: flex;
+        flex-direction: row ;
+        
+    }
+    #mainNav ul li{
+        padding: 0px 15px;
+        margin-top: 40px;
+    }
+    #mainNav img{
+        width: 250px;
+        
+    }
+
+    #mainNav ul li a{
+        font-size: 1.35rem;
+    }
+
     .contenedorContacto{
         grid-template-areas: 
         "nav nav" 
@@ -325,6 +342,10 @@ footer{
 
     #mapa{
         margin-top: 100px;
+        margin-right: 50px;
+        display: flex;
+        justify-content: right;
+       
     }
 
     .contenedorContacto h1{
@@ -367,14 +388,13 @@ footer{
 
     }
 
-    .botonera img{
+    #mainNav img{
         width: 350px;
     
     }
 
-    .botonera ul li a{
-        font-size: 2.3rem;
-        margin: 30px;  
+    #mainNav ul li a{
+        font-size: 1.7rem;
         background: linear-gradient(currentColor, currentColor);
    		background-position: 0% 100%;
     	background-repeat: no-repeat;
@@ -382,22 +402,22 @@ footer{
     	transition: background-size .3s;  
     }
 
-    .botonera ul li a:hover{
+    #mainNav ul li a:hover{
         color: black;
         font-weight: 600;
         background-size: 100% 2px;
         cursor: pointer;
     }
 
-    .botonera{
-        padding-bottom: 12px;
+   
+        
     
-    }
+    
 
     #mapa iframe{
         width: 350px;
         height: 300px;
-        padding-right: 30px;
+        
     }
     #formulario section{
         width: 500px;
