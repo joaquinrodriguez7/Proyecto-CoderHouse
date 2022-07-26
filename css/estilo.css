@@ -3,6 +3,7 @@
 *{  
     padding: 0;
     margin: 0;
+    
 }
 
 html{
@@ -110,7 +111,13 @@ footer{
     padding-top: 13px;
 }
 
-
+.articleDisenos{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    overflow: hidden;
+    height: auto;
+}
 
 .article__h3--servicios{
     width: 75%;
@@ -128,16 +135,13 @@ footer{
 
 .h3-disenos{
     text-align: center;
-    padding: 50px 0px;
-}
-
-.contenedorDisenos{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    padding-bottom: 30px;
+    font-size: 2.5rem;
+    
     
 }
+
+
+
 
 .main__acercademi{
     width: 65%;
@@ -175,6 +179,31 @@ footer{
     
    
 }
+
+.carouselHeightWidth{
+    
+    width: 65%;
+}
+
+.carouselHeightWidth2{
+    
+    width: 65%;
+    margin: 50px 0;
+}
+.carouselHeightWidth3{
+    
+    width: 65%;
+    margin: 50px 0;
+    padding-bottom: 100px;
+}
+.carouselImage{
+    height: 225px;
+    width: 300px;
+    object-fit: cover;
+   
+}
+
+
 
 
 
@@ -297,6 +326,12 @@ footer{
         width: 200px;
         
     }
+    .carouselImage{
+        height: 225px;
+        width: 300px;
+        object-fit: cover;
+       
+    }
 }
 
 
@@ -356,6 +391,12 @@ footer{
 
     #formulario section{
         width: 300px;
+    }
+    .carouselImage{
+        height: 450px;
+        width: 600px;
+        object-fit: cover;
+       
     }
 }
 
@@ -428,5 +469,11 @@ footer{
         cursor: pointer;
         transition: transform 1.5s;
 
+    }
+    .carouselImage{
+        height: 525px;
+        width: 700px;
+        object-fit: cover;
+       
     }
 }
