@@ -1,0 +1,63 @@
+//INDEX
+
+.article__h1--index{   
+    width: 65%;
+    margin: 50px auto 0px auto;
+    padding: 15px 30px;
+    border: solid $black 2px;
+    overflow: auto;
+}
+
+.border-aside{   
+    width: 65%;
+    margin-bottom: 50px;
+    padding: 15px 30px;
+    border: solid $black 2px;
+    overflow: auto;
+}
+
+.contenedor{
+    display: grid;
+    grid-template-areas: 
+    "nav" 
+    "header" 
+    "intro" 
+    "aside" 
+    "footer";
+}
+
+#intro{
+    grid-area: intro;
+}
+
+#aside{
+    grid-area: aside;
+    
+}
+
+@media (min-width: 1024px){
+    .contenedor{
+        grid-template-areas: 
+        "nav nav" 
+        "header header" 
+        "intro aside" 
+        "footer footer" ;
+    }
+
+    .article__h1--index{
+        border: none;
+        padding: 0;
+    }
+
+    .border-aside{
+        border: $black solid 3px;
+        font-size: 1.6rem;
+        padding: 20px;      
+    }
+
+    .article-padding{
+        padding-top: 30px;
+        margin: 50px;
+        width: 90%;
+    }
+}

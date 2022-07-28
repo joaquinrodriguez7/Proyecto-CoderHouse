@@ -1,0 +1,26 @@
+{
+  "name": "proyecto",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass",
+    "sass:watch": "sass --watch scss/main.scss  css/main.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joaquinrodriguez7/Proyecto-CoderHouse.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joaquinrodriguez7/Proyecto-CoderHouse/issues"
+  },
+  "homepage": "https://github.com/joaquinrodriguez7/Proyecto-CoderHouse#readme",
+  "dependencies": {
+    "node-sass": "^7.0.1",
+    "proyecto": "^1.0.3",
+    "sass": "^1.54.0"
+  },
+  "description": ""
+}

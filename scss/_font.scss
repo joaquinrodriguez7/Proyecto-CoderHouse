@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+$mainFont:'Roboto', sans-serif;
+
+$textLg:3rem;
+$textMd:2rem;
+$textSm:1.5rem;
+
+$textBold:600;
+$textRegular:400;
+$textLight:300;
+
+.text-center{
+    text-align: center;
+}
+.text-right{
+    text-align: right;
+}
+.text-left{
+    text-align: left;
+}
+.text-italic{
+    font-style: italic;
+}
+.text-justify{
+    text-align: justify;
+}

@@ -1,0 +1,73 @@
+//Diseños
+
+.articleDisenos{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    overflow: hidden;
+    height: auto;
+}
+
+
+
+.h1-disenos{
+    text-align: center;
+    padding: 50px 0px;
+    margin: 0px 100px;
+    border-bottom: $black solid 3px;
+}
+
+.h3-disenos{
+    text-align: center;
+    font-size: 2.5rem;
+    
+    
+}
+
+.carouselHeightWidth{
+    width: 65%;
+}
+
+.carouselHeightWidth2{
+    width: 65%;
+    margin: 50px 0;
+}
+.carouselHeightWidth3{
+    width: 65%;
+    margin: 50px 0;
+    padding-bottom: 100px;
+}
+.carouselImage{
+    height: 225px;
+    width: 300px;
+    object-fit: cover;
+   
+}
+
+@media (min-width: 576px){
+    
+    .carouselImage{
+        height: 225px;
+        width: 300px;
+        object-fit: cover;
+       
+    }
+}
+
+@media (min-width: 768px){
+    .carouselImage{
+        height: 450px;
+        width: 600px;
+        object-fit: cover;
+       
+    }
+}
+
+@media (min-width: 1024px){
+    .carouselImage{
+        height: 525px;
+        width: 700px;
+        object-fit: cover;
+       
+    }
+}
