@@ -6,6 +6,11 @@
     }
     h2{
         padding-top: 13px;
-        color: $white;
+        color: map-get($map:$gamaGrises, $key:'uno');
     }
+}
+
+footer{
+    background-color: map-get($map:$gamaGrises, $key:'ocho');
+    font-family: $mainFont;
 }

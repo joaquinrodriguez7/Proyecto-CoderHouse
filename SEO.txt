@@ -1,0 +1,32 @@
+En el archivo index.html sumé el SEO con las siguientes caracteristicas:
+-Descripcion: mediante la etiqueta meta name description, agregué el siguiente párrafo que explica en pocas palabras el contenido de mi sitio: "Emprendimiento de manicura en la ciudad de La Plata. Todo tipo de diseños y de colores en esmaltados semipermanente y kapping gel"
+-Palabras clave: mediante la etiqueta meta name keywords, agregué las palabras clave que acompañan a todas las paginas de mi sitio: "manicura, uñas, nails, manos, nailart, francesitas, kapping, kapping gel, belleza de manos, uñas lisas, semipermanente, manicura rusa, servicios de manicura, servicios de uñas, brnails, br nails"
+-Encabezado: para el encabezado del h1 utilicé el texto "Belleza de manos"
+
+-----------------------------------------------
+
+En el archivo servicios.html sumé el SEO con las siguientes caracteristicas:
+-Descripcion: mediante la etiqueta meta name description, agregué el siguiente párrafo que explica en pocas palabras el contenido de mi sitio: "Servicios de manicura en la ciudad de La Plata. Todo tipo de diseños y de colores en esmaltados semipermanente y kapping gel"
+-Palabras clave: mediante la etiqueta meta name keywords, agregué las palabras clave que acompañan a todas las paginas de mi sitio: "manicura, uñas, nails, manos, nailart, francesitas, kapping, kapping gel, belleza de manos, uñas lisas, semipermanente, manicura rusa, servicios de manicura, servicios de uñas, brnails, br nails"
+-Encabezado: para el encabezado del h1 utilicé el texto "Servicios"
+
+-----------------------------------------------
+
+En el archivo disenos.html sumé el SEO con las siguientes caracteristicas:
+-Descripcion: mediante la etiqueta meta name description, agregué el siguiente párrafo que explica en pocas palabras el contenido de mi sitio: "Diseños de uñas tipo lisas, francesitas y con nail art, gran variedad de tipos de diseños y colores"
+-Palabras clave: mediante la etiqueta meta name keywords, agregué las palabras clave que acompañan a todas las paginas de mi sitio: "manicura, uñas, nails, manos, nailart, francesitas, kapping, kapping gel, belleza de manos, uñas lisas, semipermanente, manicura rusa, servicios de manicura, servicios de uñas, brnails, br nails"
+-Encabezado: para el encabezado del h1 utilicé el texto "Diseños"
+
+-----------------------------------------------
+
+En el archivo acercademi.html sumé el SEO con las siguientes caracteristicas:
+-Descripcion: mediante la etiqueta meta name description, agregué el siguiente párrafo que explica en pocas palabras el contenido de mi sitio: "Breve descripción sobre mí y acerca de como empecé con este emprendimiento"
+-Palabras clave: mediante la etiqueta meta name keywords, agregué las palabras clave que acompañan a todas las paginas de mi sitio: "manicura, uñas, nails, manos, nailart, francesitas, kapping, kapping gel, belleza de manos, uñas lisas, semipermanente, manicura rusa, servicios de manicura, servicios de uñas, brnails, br nails"
+-Encabezado: para el encabezado del h1 utilicé el texto "Acerca de mi"
+
+-----------------------------------------------
+
+En el archivo acercademi.html sumé el SEO con las siguientes caracteristicas:
+-Descripcion: mediante la etiqueta meta name description, agregué el siguiente párrafo que explica en pocas palabras el contenido de mi sitio: "Pagina de contacto en la que podes encontrar el mapa con la ubicación de lugar y podes llenar un formulario para enviar un mensaje"
+-Palabras clave: mediante la etiqueta meta name keywords, agregué las palabras clave que acompañan a todas las paginas de mi sitio: "manicura, uñas, nails, manos, nailart, francesitas, kapping, kapping gel, belleza de manos, uñas lisas, semipermanente, manicura rusa, servicios de manicura, servicios de uñas, brnails, br nails"
+-Encabezado: para el encabezado del h1 utilicé el texto "Contacto"

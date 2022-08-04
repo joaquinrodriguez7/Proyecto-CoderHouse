@@ -39,29 +39,26 @@ body {
 
 h1 {
   color: black;
-  font-family: "Roboto", sans-serif;
   font-size: 3rem;
   font-weight: 600;
+  font-family: "Roboto", sans-serif;
 }
 
 h3 {
   color: black;
   font-size: 2.3rem;
+  font-weight: 600;
+  font-family: "Roboto", sans-serif;
   padding-top: 20px;
 }
 
 p {
   color: black;
-  font-family: "Roboto", sans-serif;
   font-size: 2rem;
-  line-height: 3rem;
   font-weight: 300;
-  padding-top: 20px;
-}
-
-footer {
-  background-color: black;
   font-family: "Roboto", sans-serif;
+  line-height: 3rem;
+  padding-top: 20px;
 }
 
 #header {
@@ -113,7 +110,7 @@ footer {
   text-decoration: none;
   color: black;
 }
-#mainNav ul li ahover {
+#mainNav ul li a:hover {
   color: black;
   font-weight: 600;
 }
@@ -160,14 +157,14 @@ footer {
     background-size: 0% 2px;
     transition: background-size 0.3s;
   }
-  #mainNav ul li ahover {
+  #mainNav ul li a:hover {
     color: black;
     font-weight: 600;
     background-size: 100% 2px;
     cursor: pointer;
   }
 }
-.article__h1--index {
+.h1-index, .border-aside {
   width: 65%;
   margin: 50px auto 0px auto;
   padding: 15px 30px;
@@ -176,11 +173,7 @@ footer {
 }
 
 .border-aside {
-  width: 65%;
   margin-bottom: 50px;
-  padding: 15px 30px;
-  border: solid black 2px;
-  overflow: auto;
 }
 
 .contenedor {
@@ -200,7 +193,7 @@ footer {
   .contenedor {
     grid-template-areas: "nav nav" "header header" "intro aside" "footer footer";
   }
-  .article__h1--index {
+  .h1-index, .border-aside {
     border: none;
     padding: 0;
   }
@@ -236,30 +229,30 @@ footer {
 }
 
 .carouselHeightWidth {
-  width: 65%;
+  width: 75%;
 }
 
 .carouselHeightWidth2 {
-  width: 65%;
+  width: 75%;
   margin: 50px 0;
 }
 
 .carouselHeightWidth3 {
-  width: 65%;
+  width: 75%;
   margin: 50px 0;
   padding-bottom: 100px;
 }
 
 .carouselImage {
-  height: 225px;
-  width: 300px;
+  height: 169px;
+  width: 225px;
   object-fit: cover;
 }
 
 @media (min-width: 576px) {
   .carouselImage {
-    height: 225px;
-    width: 300px;
+    height: 324px;
+    width: 432px;
     object-fit: cover;
   }
 }
@@ -277,21 +270,21 @@ footer {
     object-fit: cover;
   }
 }
-.article__h3--servicios {
+.h3-servicios {
   width: 75%;
   margin: 50px auto;
   padding: 20px 30px;
   overflow: auto;
 }
 
-.main__acercademi {
+.main-acercademi {
   width: 65%;
   margin: 50px auto 0px auto;
   padding: 15px 30px;
   overflow: auto;
 }
 
-.aside__acercademi {
+.aside-acercademi {
   width: 80%;
   margin: 50px auto 0px auto;
   padding: 30px;
@@ -368,7 +361,12 @@ footer {
 }
 #footer h2 {
   padding-top: 13px;
-  color: white;
+  color: #fdfdfd;
+}
+
+footer {
+  background-color: #020202;
+  font-family: "Roboto", sans-serif;
 }
 
 /*# sourceMappingURL=main.css.map */

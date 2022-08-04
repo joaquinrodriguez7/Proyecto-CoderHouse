@@ -1,0 +1,28 @@
+//extend en _index.scss
+
+
+//mixins
+
+@mixin texto($color, $fontSize, $fontWeight,){
+    color: $color;
+    font-size: $fontSize;
+    font-weight: $fontWeight;
+    font-family: $mainFont;
+}
+
+//@include texto(black,1.2rem,300);
+
+
+//maps
+$gamaGrises:(
+    'uno':#fdfdfd,
+    'dos':#f5f5f5,
+    'tres':#d7d7d7,
+    'cuatro':#b0b0b0,
+    'cinco':#7e7e7e,
+    'seis':#585858,
+    'siete':#464646,
+    'ocho':#020202,
+)
+
+

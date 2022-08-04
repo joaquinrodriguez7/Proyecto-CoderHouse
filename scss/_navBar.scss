@@ -22,7 +22,7 @@
                 font-size: $textSm;
                 text-decoration: none;
                 color:$black;
-                &hover{
+                &:hover{
                     color:$black;
                     font-weight: $textBold;
                 }
@@ -81,7 +81,7 @@
                     background-repeat: no-repeat;
                     background-size: 0% 2px;
                     transition: background-size .3s;
-                    &hover{
+                    &:hover{
                         color: $black;
                         font-weight: $textBold;
                         background-size: 100% 2px;

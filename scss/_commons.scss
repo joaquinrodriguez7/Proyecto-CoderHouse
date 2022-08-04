@@ -20,31 +20,22 @@ body{
 
 
 h1{
-    color: $black;
-    font-family: $mainFont;
-    font-size: $textLg;
-    font-weight: $textBold;
-   
-}
-h3{
-    color: $black;
-    font-size: 2.3rem;
-    padding-top: 20px;
-    
+    @include texto($black,$textLg,$textBold);
 
 }
-p{
-    color: $black;
-    font-family: $mainFont;
-    font-size: $textMd;
-    line-height: 3rem;
-    font-weight: $textLight;
+
+h3{
+    @include texto($black,2.3rem,$textBold);
     padding-top: 20px;
 }
-footer{
-    background-color: $black;
-    font-family: $mainFont;
+
+p{
+    @include texto($black,$textMd,$textLight);
+    line-height: 3rem;
+    padding-top: 20px;
 }
+
+
 
 //header
 #header{

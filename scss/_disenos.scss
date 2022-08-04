@@ -25,21 +25,21 @@
 }
 
 .carouselHeightWidth{
-    width: 65%;
+    width: $w-75;
 }
 
 .carouselHeightWidth2{
-    width: 65%;
+    width: $w-75;
     margin: 50px 0;
 }
 .carouselHeightWidth3{
-    width: 65%;
+    width: $w-75;
     margin: 50px 0;
     padding-bottom: 100px;
 }
 .carouselImage{
-    height: 225px;
-    width: 300px;
+    height: 169px;
+    width: 225px;
     object-fit: cover;
    
 }
@@ -47,8 +47,8 @@
 @media (min-width: 576px){
     
     .carouselImage{
-        height: 225px;
-        width: 300px;
+        height: 324px;
+        width: 432px;
         object-fit: cover;
        
     }
