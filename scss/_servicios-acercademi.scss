@@ -1,17 +1,26 @@
 //Servicios
 
-.h3-servicios{
+.article-servicios{
     width: $w-75;
     margin: 50px auto;
     padding: 20px 30px;
     overflow: auto;
 }
 
+.text-bold{
+    font-weight: 500;
+}
+
+.h3-servicios{
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
 
 //Acerca de mi
 
 .main-acercademi{
-    width: 65%;
+    width: 85%;
     margin: 50px auto 0px auto;
     padding: 15px 30px;
     overflow: auto;
@@ -25,4 +34,26 @@
     padding: 30px;
     display: flex;
     align-content: center;
+}
+
+.h1-acercademi{
+    padding-bottom: 50px;
+}
+
+@media (min-width: 1024px){
+    .aside-acercademi{
+        padding: 0;
+        padding: 50px 0;
+
+    }
+    .h1-acercademi{
+        padding-bottom: 30px;
+    }
+}
+
+@media (min-width: 1440px){
+    .aside-acercademi{
+        padding: 30px;
+    }
+   
 }

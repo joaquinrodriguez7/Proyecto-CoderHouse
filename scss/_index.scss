@@ -1,6 +1,6 @@
-//INDEX
+  //INDEX
 
-.h1-index{   
+.article-index{   
     width: 65%;
     margin: 50px auto 0px auto;
     padding: 15px 30px;
@@ -9,8 +9,16 @@
 }
 
 .border-aside{   
-    @extend .h1-index;
+    @extend .article-index;
     margin-bottom: 50px;
+}
+
+.h1-index{
+    padding-bottom: 30px;
+}
+
+.h3-aside{
+    padding-bottom: 20px;
 }
 
 .contenedor{
@@ -41,7 +49,7 @@
         "footer footer" ;
     }
 
-    .h1-index{
+    .article-index{
         border: none;
         padding: 0;
     }
