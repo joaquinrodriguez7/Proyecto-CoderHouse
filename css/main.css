@@ -356,6 +356,14 @@ p {
   grid-template-areas: "nav" "header" "formulario" "mapa" "footer";
 }
 
+.decoNone {
+  text-decoration: none;
+  color: white;
+}
+.decoNone:hover {
+  color: white;
+}
+
 @media (min-width: 768px) {
   .contenedorContacto {
     grid-template-areas: "nav nav" "header header" "formulario mapa" "footer footer";
@@ -400,6 +408,59 @@ p {
 footer {
   background-color: #020202;
   font-family: "Roboto", sans-serif;
+}
+
+.mainbox {
+  margin: auto;
+  height: 600px;
+  width: 600px;
+  position: relative;
+}
+
+.err {
+  color: black;
+  font-family: "Roboto", sans-serif;
+  font-size: 11rem;
+  position: absolute;
+  left: 20%;
+  top: 8%;
+}
+
+.far {
+  position: absolute;
+  font-size: 8.5rem;
+  left: 42%;
+  top: 15%;
+  color: black;
+}
+
+.err2 {
+  color: black;
+  font-family: "Roboto", sans-serif;
+  font-size: 11rem;
+  position: absolute;
+  left: 68%;
+  top: 8%;
+}
+
+.msg {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+  font-weight: 400;
+  position: absolute;
+  left: 12%;
+  top: 45%;
+  width: 75%;
+}
+
+#error a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+}
+#error a:hover {
+  text-decoration: underline;
 }
 
 /*# sourceMappingURL=main.css.map */

@@ -36,6 +36,14 @@
     "footer";
 }
 
+.decoNone{
+    text-decoration: none;
+    color: white;
+    &:hover{
+        color: white;
+    }
+}
+
 @media (min-width: 768px){
     .contenedorContacto{
         grid-template-areas: 

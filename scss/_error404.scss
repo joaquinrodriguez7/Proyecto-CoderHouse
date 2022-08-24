@@ -1,0 +1,56 @@
+ .mainbox{
+    margin: auto;
+    height: 600px;
+    width: 600px;
+    position: relative;
+    
+}
+  
+.err{
+    color: black;
+    font-family: $mainFont;
+    font-size: 11rem;
+    position:absolute;
+    left: 20%;
+    top: 8%;
+}
+  
+.far{
+    position: absolute;
+    font-size: 8.5rem;
+    left: 42%;
+    top: 15%;
+    color: black;
+}
+  
+.err2{
+    color: black;
+    font-family: $mainFont;
+    font-size: 11rem;
+    position:absolute;
+    left: 68%;
+    top: 8%;
+}
+  
+.msg{
+    text-align: center;
+    font-family: $mainFont;
+    font-size: $textMd;
+    font-weight: $textRegular;
+    position:absolute;
+    left: 12%;
+    top: 45%;
+    width: 75%;
+}
+  
+#error{
+    a{
+    text-decoration: none;
+    color: black;
+    font-weight: $textBold;
+    &:hover{
+        text-decoration: underline;
+    }
+  }
+} 
+  
